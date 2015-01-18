@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "launch.js" ]
+      }
+   },
+   "description": "Airduino.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "Airduino",
+   "permissions": [ "serial", "notifications", "fileSystem", "storage", "webRequest", "https://amazonaws.com" ],
+   "short_name": "Airduino",
+   "version": "1"
+}

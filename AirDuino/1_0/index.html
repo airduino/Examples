@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <img style="margin-right:auto;margin-left:auto;display:block;" src="icon128.png">       <div style="width: 700px; background-color: #fff; border-radius: 3px; padding: 1em; margin-right: auto; margin-left: auto;">
+      <div id="connect_box" style="width:300px;display:block;" title="USB Connection">
+        <label style="font-family: sans-serif; color: #b4b4b4">Select</label><br/><br/>
+      <select id="port_list"><option>Please Wait...</option></select><br/><br/>
+      <button id="connect_button" style="background-color: #2E78BD; border: 0px; color: #fff; font-size: 16px; border-radius: 3px; padding: 1em;">Connect</button><br/><br/><br/>
+      </div><div style="width:300px;display:block;" title="USB Connection">
+      <label style="font-family: sans-serif; color: #b4b4b4; margin-top: -10px; display: block;">Deploy</label><br/><br/>
+        <button id="upload" style="background-color: #2E78BD; border: 0px; color: #fff; font-size: 16px; border-radius: 3px; padding: 1em; text-decoration: none; font-family: sans-serif;">Upload</button>
+      </div>
+      <br/><br/><br/>
+      <input type="checkbox" style="display: none;" id="verify" />
+      <span style="font-weight: bold; display: none;">&nbsp;&nbsp;&nbsp;Verify?</span>
+      <div class="console" id="console" style="width: 690px">
+          <strong>Air</strong>duino ready. <br>Select your serial device from the drop down. <br>Then click CONNECT. <br>If none is displayed, quit the program, plug in your Arduino/AVR and try again.
+    </div>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>

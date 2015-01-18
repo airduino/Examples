@@ -1,0 +1,31 @@
+body{ background-color: #ecf0f1; }
+
+.button {
+    background: 
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #99d5d7), color-stop(1, #99d5d7) );
+	background:-moz-linear-gradient( center top, #99d5d7 5%, #99d5d7 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#99d5d7', endColorstr='#99d5d7');
+	background-color:#99d5d7;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+.off {  pointer-events: none;
+   cursor: default; background-color: #000000; color: #aaaaaa; border: 1px solid #AAAAAA; }
+
+.appname { 
+  font-size: 16px;
+  text-align: center;
+ font-family: Verdana, Geneva, sans-serif;
+}
+
+.console {
+  width: 800px; height: 140px; background-color: #ecf0f1; color: #2E78BD; font-family: courier; font-size: 12px; white-space: pre-line; overflow-y: scroll;
+  padding: 4px;
+}
+
+
+/* This button was generated using CSSButtonGenerator.com */
